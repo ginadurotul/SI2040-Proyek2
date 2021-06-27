@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navhome"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_cycle"
+            android:icon="@drawable/home_icon"
+            android:title="Indonesian" />
+
+        <item
+            android:id="@+id/nav_bus"
+            android:icon="@drawable/home_icon"
+            android:title="Asian" />
+
+        <item
+            android:id="@+id/nav_plane"
+            android:icon="@drawable/home_icon"
+            android:title="Western" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Profile">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/home_icon"
+                    android:title="Login" />
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/profile_icon"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="Logout" />
+
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:title="Home"
+                android:icon="@drawable/home_icon"
+                />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:title="Rate"
+                android:icon="@drawable/rate_icon"
+                />
+        </menu>
+    </item>
+</menu>

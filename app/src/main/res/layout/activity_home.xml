@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9FB"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <ImageButton
+        android:id="@+id/profil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:background="#00FFFFFF"
+        android:elevation="4dp"
+        android:scaleType="fitEnd"
+        android:onClick="alamat"
+        android:src="@drawable/ic_baseline_add_location_24"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="E! Foodies"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="15dp"
+        android:text="Delivery"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F9F9FB"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="22dp"
+                android:text="Categories"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:layout_width="105dp"
+                            android:layout_height="177dp"
+                            android:scaleType="fitXY"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:background="#00FFFFFF"
+                            android:elevation="4dp"
+                            android:onClick="indonesia"
+                            app:srcCompat="@drawable/id" />
+
+
+                        <ImageButton
+                            android:layout_width="105dp"
+                            android:layout_height="177dp"
+                            android:scaleType="fitXY"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:background="#00FFFFFF"
+                            android:elevation="4dp"
+                            android:onClick="asianf"
+                            app:srcCompat="@drawable/asianf" />
+
+                        <ImageButton
+                            android:layout_width="105dp"
+                            android:layout_height="177dp"
+                            android:scaleType="fitXY"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:background="#00FFFFFF"
+                            android:elevation="4dp"
+                            android:onClick="westernf"
+                            app:srcCompat="@drawable/westernf" />
+                        <ImageButton
+                            android:layout_width="105dp"
+                            android:layout_height="177dp"
+                            android:scaleType="fitXY"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:background="#00FFFFFF"
+                            android:elevation="4dp"
+                            android:onClick="drinks"
+                            app:srcCompat="@drawable/drinks" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </ScrollView>
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"/>
+            </ScrollView>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="22dp"
+                android:text="Popular"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="161dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#00FFFFFF"
+                android:elevation="4dp"
+                android:scaleType="fitXY"
+                android:onClick="Pizza"
+                app:srcCompat="@drawable/topweek" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="161dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:background="#00FFFFFF"
+                android:elevation="4dp"
+                android:onClick="Healthy"
+                app:srcCompat="@drawable/healthyf" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="161dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#00FFFFFF"
+                android:elevation="4dp"
+                android:onClick="Baechukim"
+                app:srcCompat="@drawable/tasianf" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="161dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#00FFFFFF"
+                android:elevation="4dp"
+                android:onClick="Sate"
+                app:srcCompat="@drawable/tidf" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

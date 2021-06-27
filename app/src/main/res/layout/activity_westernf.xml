@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9FB"
+    android:orientation="vertical"
+    tools:context=".IdFood">
+
+    <ImageButton
+        android:id="@+id/profil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:background="#00FFFFFF"
+        android:elevation="4dp"
+        android:scaleType="fitEnd"
+        app:srcCompat="@drawable/menu_icon" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            android:text="Western"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="15dp"
+            android:text="Food"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F9F9FB"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="161dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:background="#00FFFFFF"
+                android:elevation="4dp"
+                android:onClick="Pizza"
+                app:srcCompat="@drawable/pizza" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="161dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:background="#00FFFFFF"
+                android:elevation="4dp"
+                android:onClick="Burger"
+                app:srcCompat="@drawable/burger" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="161dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:background="#00FFFFFF"
+                android:elevation="4dp"
+                android:onClick="taco"
+                app:srcCompat="@drawable/taco" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="161dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:background="#00FFFFFF"
+                android:elevation="4dp"
+                android:onClick="ffries"
+                app:srcCompat="@drawable/fries" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

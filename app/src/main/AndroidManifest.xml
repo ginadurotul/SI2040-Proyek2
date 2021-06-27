@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.splashscrreen">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Splashscrreen">
+        <activity android:name=".ShowActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Gadogado" />
+        <activity android:name=".ordergado" />
+        <activity android:name=".Register" />
+        <activity android:name=".Taco" />
+        <activity android:name=".FFries" />
+        <activity android:name=".Hfalafel" />
+        <activity android:name=".Pokebowl" />
+        <activity android:name=".Healthyf" />
+        <activity android:name=".teriyaki" />
+        <activity android:name=".Icetea" />
+        <activity android:name=".LemonJus" />
+        <activity android:name=".Cocacola" />
+        <activity android:name=".Drinks" />
+        <activity android:name=".Burger" />
+        <activity android:name=".Pizza" />
+        <activity android:name=".Bulgogi" />
+        <activity android:name=".Sushi" />
+        <activity android:name=".Baechukimchi" />
+        <activity android:name=".Rendang" />
+        <activity android:name=".Westernf" />
+        <activity android:name=".AsianFood" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".Ordered" />
+        <activity android:name=".SateKambing" />
+        <activity android:name=".IdFood" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+    </application>
+
+</manifest>
